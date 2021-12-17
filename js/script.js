@@ -11,6 +11,7 @@ function changeColor(boxDiv, number) {
 }
 
 
+
 function creaBox(containerGame, difficultGame, number) {
     const boxElemento = document.createElement('div');
     boxElemento.classList.add('box');
@@ -25,10 +26,6 @@ function creaBox(containerGame, difficultGame, number) {
     changeColor(boxElemento, number);
 }
 
-// width 500 if 100
-
-// width 450 if 81 
-// width 350 if 49
 
 const container = document.querySelector('.campominato-container');
 
